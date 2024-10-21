@@ -36,7 +36,7 @@ export default function Header({
             return; // No continuar con el proceso de compra
         }
 
-        const phoneNumber = "+523171122571"; // Reemplaza con el número del propietario de la tienda
+        const phoneNumber = "+121234567890"; // Reemplaza con el número del propietario de la tienda
         const orderSummary = cart.map(item => `${item.quantity}x ${item.name}`).join(", ");
         const message = `Hola, quiero realizar un pedido: ${orderSummary}. Total: $${cartTotal}.`;
     
